@@ -1,0 +1,52 @@
+*{
+    padding:0;
+    margin: 0;
+}
+.carousel-inner img {
+    max-height: 700px;
+}
+
+.col-4{
+    height: 200px;
+}
+video{
+    display: flex;
+    align-items: center;
+    margin-right: 400px;
+}
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;}
+body{
+    background-color: white;
+}
+.header{
+    grid-area: header;
+}
+.contenido{
+    grid-area: contenido;
+}
+.fotercito{
+    grid-area: footer;
+}
+.tiendagrid{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-areas: 
+    "header header header"
+    "contenido contenido contenido"
+    "footer footer footer";
+}
+.footergeneral{
+    margin-top: 10cm;
+}
+.nosotros{
+    padding: 4cm;
+}
+
+
+
+
+
+
+    
