@@ -1,0 +1,46 @@
+.carousel-inner{
+    .carousel-item{
+        img{
+            max-height: 700px;  
+        }
+    }
+}
+/* nuevo */
+
+.contenedor{
+    background-color: red;
+    height: 50vh;
+    margin: 5%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left:500px;
+}
+
+.centrame{
+    h1 {
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    p{
+        color: white;
+    }
+    img{
+
+    }
+}
+
+.imagenesIndex1{
+    object-fit: cover; 
+    height: 230px ;
+}
+
+.imagenesIndex2{
+    object-fit: cover; 
+}
+.imagenesIndex3{
+    object-fit: cover; 
+    height: 230px;
+}
+
+
