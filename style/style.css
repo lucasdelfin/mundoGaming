@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-.prueba, .btn_success, .btn_alert, .btn_cancel {
+.prueba {
   width: 100px;
   text-align: center;
   padding: 5px 0;
@@ -12,34 +12,13 @@
   color: #FFFFFF;
 }
 
-.btn_success {
-  background-color: #108EFF;
+.preguntasContacto {
+  color: orange;
 }
 
-.btn_alert {
-  background-color: #FF8516;
-}
-
-.btn_cancel {
-  background-color: #D61E20;
-}
-
-.box_uno {
-  width: 200px;
-  height: 100px;
-  background-color: #33D374;
-  border-radius: 5%;
-  text-align: center;
-  margin: 5px;
-}
-
-.box_dos {
-  width: 150px;
-  height: 50px;
-  background-color: #108EFF;
-  border-radius: 5%;
-  text-align: center;
-  margin: 5px;
+.preguntas p {
+  text-align: justify;
+  color: #090909;
 }
 
 .carousel-inner .carousel-item img {
@@ -97,6 +76,81 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 1.5rem;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.texto-home {
+  font-size: 1.3rem;
+  width: 100%;
+  margin: auto;
+}
+
+.cardsContainer {
+  background-color: #202020;
+  padding: 1rem 0 3rem 0;
+  margin: 4rem 0;
+  color: white;
+}
+
+.featureContainer {
+  margin-bottom: 4rem;
+}
+
+.feature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+.feature div {
+  margin: auto auto auto 0;
+  width: 50%;
+}
+
+.feature div .estilosletra {
+  text-align: justify;
+}
+
+.feature div img {
+  width: 30%;
+  display: block;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .featureContainer .feature {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .featureContainer .feature :nth-child(2) {
+    margin-bottom: 40px;
+  }
+  .featureContainer .feature div {
+    width: 100%;
+  }
+}
+
+.preguntasContacto {
+  color: orange;
+}
+
+.preguntas p {
+  text-align: justify;
+  color: #090909;
+}
+
+.letrasContacto p {
+  text-align: justify;
+  color: black;
+  font-weight: bold;
 }
 
 /*colores*/
@@ -191,10 +245,6 @@ body {
   background-color: #0b2bdf;
   -webkit-box-shadow: 0 0 20px #0d0df7;
           box-shadow: 0 0 20px #0d0df7;
-}
-
-.container {
-  margin-top: 8%;
 }
 
 .boton {

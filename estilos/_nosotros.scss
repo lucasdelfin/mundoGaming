@@ -7,34 +7,12 @@
     color: #FFFFFF;
 }
 
-.btn_success {
-    @extend.prueba;
-    background-color: #108EFF;
+.preguntasContacto{
+    color: orange;
 }
-
-.btn_alert {
-    @extend.prueba;
-    background-color: #FF8516;
+.preguntas{
+    p{
+        text-align: justify;
+        color: rgb(9, 9, 9);
 }
-
-.btn_cancel {
-    @extend.prueba;
-    background-color: #D61E20;
-}
-
-@mixin container($ancho, $alto, $color) {
-    width: $ancho;
-    height: $alto;
-    background-color: $color;
-    border-radius: 5%;
-    text-align: center;
-    margin: 5px;
-}
-
-.box_uno {
-    @include container(200px, 100px, #33D374)
-}
-
-.box_dos {
-    @include container(150px, 50px, #108EFF)
 }
